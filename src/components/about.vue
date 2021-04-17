@@ -9,7 +9,7 @@
       understand sprint deadlines.
     </p>
     <a
-      href="../assets/resume.pdf"
+      href="https://docs.google.com/document/d/1A3eByYv7eVi5QNOwr-fsE4KvPzawZjPiKTZRCZJyo08/edit?usp=sharing"
       target="_blank"
       ><img class="icon" src="../assets/cv.svg" /><br /><span
         >My Resume</span
@@ -24,7 +24,7 @@ export default {
 </script>
 <style scoped>
 p {
-  margin: 16px 100px 0px 100px;
+  margin: 16px 35% 0px 35%;
 }
 .icon {
   height: 60px;

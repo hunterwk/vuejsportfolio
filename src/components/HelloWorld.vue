@@ -3,20 +3,21 @@
     <h1>{{ msg }}</h1>
     <p>Full Stack Web Developer and Hospitality Veteran.</p>
     <a href="https://github.com/hunterwk" target="_blank"
-      ><img class="icon" src="../assets/github.svg"
+      ><img class="icon" src="../assets/github.svg" alt="github icon"
     /></a>
     <a href="https://www.linkedin.com/in/hunter-kantner-780788194/" target="_blank"
-      ><img class="icon" src="../assets/linkedin.svg"
+      ><img class="icon" src="../assets/linkedin.svg" alt="linkedin icon"
     /></a>
     <a href="mailto:hunterkantner@gmail.com" target="_blank"
-      ><img class="icon" src="../assets/gmail.svg"
+      ><img class="icon" src="../assets/gmail.svg" alt="email icon"
     /></a>
     <h3>About me</h3>
     <About/>
 
-    <h3>Category</h3>
+    <h3>Prior Work</h3>
 
-    <h3>Ecosystem</h3>
+    <h3>TIL</h3>
+
     <ul></ul>
   </div>
 </template>
