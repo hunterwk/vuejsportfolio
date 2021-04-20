@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container max-w-md mx-auto">
     <p>
       I am full stack web developer born and raised in San Diego. I enjoy
       building components and learning more and more about modern frameworks. I
@@ -8,13 +8,15 @@
       challenge but it helped me learn how to code in a group setting and
       understand sprint deadlines.
     </p>
-    <a
+    <div class="flex items-center justify-center">
+    <a class="border-4"
       href="https://docs.google.com/document/d/1A3eByYv7eVi5QNOwr-fsE4KvPzawZjPiKTZRCZJyo08/edit?usp=sharing"
       target="_blank"
-      ><img class="icon" src="../assets/cv.svg" /><br /><span
-        >My Resume</span
-      ></a
+      ><img class="icon" src="../assets/cv.svg" />
+        My Resume
+      </a
     >
+    </div>
   </div>
 </template>
 <script>
@@ -23,9 +25,7 @@ export default {
 };
 </script>
 <style scoped>
-p {
-  margin: 16px 35% 0px 35%;
-}
+
 .icon {
   height: 60px;
   width: 60px;

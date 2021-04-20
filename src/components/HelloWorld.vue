@@ -1,7 +1,9 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>Full Stack Web Developer and Hospitality Veteran.</p>
+    <span>Full Stack Web Developer and Hospitality Veteran.</span>
+    <div class="flex">
+      <div class="mx-auto flex"> 
     <a href="https://github.com/hunterwk" target="_blank"
       ><img class="icon" src="../assets/github.svg" alt="github icon"
     /></a>
@@ -11,19 +13,25 @@
     <a href="mailto:hunterkantner@gmail.com" target="_blank"
       ><img class="icon" src="../assets/gmail.svg" alt="email icon"
     /></a>
+    </div>
+    </div>
     <h3>About me</h3>
     <About/>
 
     <h3>Prior Work</h3>
-
+    <PastWork/>
     <h3>TIL</h3>
-
+    <TIL/>
     <ul></ul>
   </div>
 </template>
 
 <script>
 import About from './about.vue'
+import PastWork from './PastWork.vue'
+import TIL from './TIL.vue'
+
+
 
 export default {
   name: "HelloWorld",
@@ -31,7 +39,9 @@ export default {
     msg: String,
   },
   components: {
-    About
+    About,
+    PastWork,
+    TIL
   }
 };
 </script>

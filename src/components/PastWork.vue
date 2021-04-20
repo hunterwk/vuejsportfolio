@@ -1,6 +1,8 @@
-!<template>
-  <div class="container flex">
-      
+<template>
+  <div class="container flex flex-row">
+  <div>
+    <span>hello</span>
+  </div>
   </div>
 </template>
 
