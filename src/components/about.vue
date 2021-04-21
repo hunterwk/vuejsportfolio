@@ -9,7 +9,7 @@
       understand sprint deadlines.
     </p>
     <div class="flex items-center justify-center">
-    <a class="border-4"
+    <a class=""
       href="https://docs.google.com/document/d/1A3eByYv7eVi5QNOwr-fsE4KvPzawZjPiKTZRCZJyo08/edit?usp=sharing"
       target="_blank"
       ><img class="icon" src="../assets/cv.svg" />
