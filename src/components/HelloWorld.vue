@@ -1,7 +1,9 @@
 <template>
   <div class="hello">
+    <div class="border-b-8">
     <h1>{{ msg }}</h1>
     <span>Full Stack Web Developer and Hospitality Veteran.</span>
+    </div>
     <div class="flex">
       <div class="mx-auto flex"> 
     <a href="https://github.com/hunterwk" target="_blank"
@@ -48,6 +50,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+h1 {
+  font-size: 3rem;
+}
 h3 {
   margin: 20px 0 0;
 }

@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <img class="mx-auto" alt="Vue logo" src="./assets/logo.png">
+    <img class="mx-auto rounded-lg" alt="Vue logo" src="./assets/bitmap.png">
+    <br/>
     <HelloWorld msg="Hunter Willoughby Kantner"/>
     
   </div>
