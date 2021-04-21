@@ -1,19 +1,23 @@
 <template>
   <div id="app">
-    <img class="mx-auto rounded-lg" alt="Vue logo" src="./assets/bitmap.png">
+    <div class="container max-w-3xl mx-auto">
+    <img class="mx-auto rounded-lg shadow-md" alt="Vue logo" src="./assets/bitmap.png">
     <br/>
     <HelloWorld msg="Hunter Willoughby Kantner"/>
-    
+    </div>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Footer from './components/footer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Footer
   }
 }
 </script>

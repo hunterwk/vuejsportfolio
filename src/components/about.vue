@@ -8,7 +8,7 @@
       challenge but it helped me learn how to code in a group setting and
       understand sprint deadlines.
     </p>
-    <div class="flex items-center justify-center">
+    <div class="flex items-center justify-center bg-white">
     <a class=""
       href="https://docs.google.com/document/d/1A3eByYv7eVi5QNOwr-fsE4KvPzawZjPiKTZRCZJyo08/edit?usp=sharing"
       target="_blank"

@@ -2,9 +2,11 @@
   <div class="hello">
     <div class="border-b-8">
     <h1>{{ msg }}</h1>
-    <span>Full Stack Web Developer and Hospitality Veteran.</span>
+    <span>Full Stack Web Developer and Hospitality Veteran.</span><br><br>
     </div>
-    <div class="flex">
+    <br/>
+
+    <nav class="flex">
       <div class="mx-auto flex"> 
     <a href="https://github.com/hunterwk" target="_blank"
       ><img class="icon" src="../assets/github.svg" alt="github icon"
@@ -16,15 +18,22 @@
       ><img class="icon" src="../assets/gmail.svg" alt="email icon"
     /></a>
     </div>
-    </div>
+    </nav>
+    <main class="grid grid-cols-3 gap-2">
+    <div class="border-4">
     <h3>About me</h3>
     <About/>
-
+    </div>
+    <div class="border-4">
     <h3>Prior Work</h3>
     <PastWork/>
+    </div>
+    <div>
     <h3>TIL</h3>
     <TIL/>
     <ul></ul>
+    </div>
+    </main>
   </div>
 </template>
 
