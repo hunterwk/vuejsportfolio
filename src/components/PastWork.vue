@@ -1,8 +1,19 @@
 <template>
-  <div class="container flex flex-row">
-  <div>
-    <span>hello</span>
-  </div>
+  <div class="container flex flex-col">
+    <div>
+      <div>
+        <img src="../assets/avcdo.png">
+      </div>
+      <div>
+        <img src="../assets/critter.png">
+      </div>
+      <div>
+        <img src="../assets/newb.png">
+      </div>
+      <div>
+        <img src="../assets/hedgenightlogo.png">
+      </div>
+    </div>
   </div>
 </template>
 
