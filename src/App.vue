@@ -5,19 +5,19 @@
     <br/>
     <HelloWorld msg="Hunter Willoughby Kantner"/>
     </div>
-    <Footer/>
+    <AppFooter/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import Footer from './components/footer.vue'
+import AppFooter from './components/AppFooter.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Footer
+    AppFooter
   }
 }
 </script>

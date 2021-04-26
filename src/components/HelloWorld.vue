@@ -21,7 +21,7 @@
     <main class="grid grid-cols-3 gap-2">
     <div class="border-4">
     <h3>About me</h3>
-    <About/>
+    <AboutTab/>
     </div>
     <div class="border-4">
     <h3>Prior Work</h3>
@@ -29,7 +29,7 @@
     </div>
     <div class="border-4">
     <h3>TIL</h3>
-    <TIL/>
+    <TILTab/>
     <ul></ul>
     </div>
     </main>
@@ -37,9 +37,9 @@
 </template>
 
 <script>
-import About from './about.vue'
+import AboutTab from './AboutTab.vue'
 import PastWork from './PastWork.vue'
-import TIL from './TIL.vue'
+import TILTab from './TILTab.vue'
 
 
 
@@ -49,7 +49,7 @@ export default {
     msg: String,
   },
   components: {
-    About,
+    AboutTab,
     PastWork,
     TIL
   }

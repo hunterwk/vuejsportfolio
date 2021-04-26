@@ -21,7 +21,7 @@
 </template>
 <script>
 export default {
-  name: "About",
+  name: "AboutTab",
 };
 </script>
 <style scoped>
